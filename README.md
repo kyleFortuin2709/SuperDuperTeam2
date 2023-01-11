@@ -17,6 +17,7 @@
 ## Class Names
  - Each class should not violate the Single Responsibility Principle(SRP)
  - Pascal case naming
+ - Class name should be a noun, not a verb.
 
 ## Interfaces
  - Interfaces should start with I
@@ -32,9 +33,11 @@
  - Avoid long functions, function should be small.
  - Functions should not violate the SRP.
  - Functions that are used only within that class should be encapasulated.
+ - Don't return null or pass in null
 
 ## Unit Tests
  - Test what you make 
+ - Test code must be designed to be read
 
 ## Heavy Considerations  
 - In the event that a function has more than 3 parameters consider whether or not that function is following the SRP.
