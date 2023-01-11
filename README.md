@@ -1,14 +1,14 @@
-# SuperDuperTeam2
-
-## Super Duper Best Practices
+# Group 2 Best Practices
 
 ### All naming should represent the intention of the subjects purpose
 
 ## Linting//TODO:
--https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
+ - [C# Lint](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+ 
+ ## C# Conventions
+ - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
-
-## files
+## Files
 -Both File and Folder names must be done with Pascal Casing
 
 ## Class Names
@@ -38,7 +38,3 @@ Study the documentation and test the third API before you start using it.
 ## Heavy Considerations  
 - in the event that a function has more than 3 parameters consider wheteher or not that function is following the Single Responsibility principle.
 - Duplicate Code should be abstracted into method
-
-<Add some text around the application of documentation>
-C# Standard Practice
-https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
