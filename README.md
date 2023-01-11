@@ -18,7 +18,8 @@ Ensure you read through and understand the documentation before starting any dev
    
  ## C# Conventions
    We follow most of the conventions defined in the C# documentation but we have listed preferences and some important aspects we wish to be applied
-   throughout the developemt of this project as well as some things to keep in mind.
+   throughout the developemt of this project as well as some things to keep in mind. Please make sure you are familar with the coding 
+   conventions in the official C# documentation a well as the teams documentation
  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## General
