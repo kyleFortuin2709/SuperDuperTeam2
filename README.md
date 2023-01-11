@@ -1,6 +1,6 @@
 # SuperDuperTeam2
 
-# Super Duper Best Practices
+## Super Duper Best Practices
 
 #All naming should represent the intention of the subjects purpose
 
