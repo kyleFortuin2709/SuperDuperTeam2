@@ -27,6 +27,7 @@
 ## Variables
  - It is not permitted to declare several variables in a single line.
  - When declaring a variable of type Boolean the variable should start with 'Is'
+ - avoid abbreviation when declaring variables
 
 ## Functions
  - If a function is used in mutliple packages, it should be extracted into the common directory such as the Utils directory and imported. { A function should be extracted into a shared location, like the Utils directory, and imported if it is used in more than one package. }
