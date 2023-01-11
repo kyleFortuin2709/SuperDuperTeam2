@@ -3,11 +3,11 @@
 Ensure you read through and understand the documentation before starting any development work. The intent of this document is to cover the standard practices the group follows for the C# programming languages and also a guide to setting up and installing all the tools needed to run the project. An effort should be made at all times to adhere to these practices.
  
 ## IDE
-   ### Installation
+### Installation
    The editor chosen by this team is Microsoft's Visual Studio Code 2022. Below is a guide to download, install and configure Visual Studio 2022 on your machine.
  - [IDE setup](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022)
   
-   ### Getting Started
+### Getting Started
    Please follow this guide to understand how to use the IDE as it covers a range of important and effective functionality.
  - [Getting Started](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/visual-studio-ide?view=vs-2022)
  
