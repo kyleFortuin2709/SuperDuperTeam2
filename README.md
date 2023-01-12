@@ -31,7 +31,7 @@ Ensure you read through and understand the documentation before starting any dev
  
 ## Formatting rules
  - Must indent the logic inside the method.
- - Must have spaces afer the if,else statements and loops.
+ - Must have spaces after the if,else statements and loops.
  - Must have a new line before the catch and finally blocks.
  - Must have a new line before and after open-brace.
  - Must indent switch labels and case statements in switch statements.
