@@ -19,11 +19,11 @@ Ensure you read through and understand the documentation before starting any dev
  ## C# Conventions
    We follow most of the conventions defined in the C# documentation but we have listed preferences and some important aspects we wish to be applied
    throughout the developemt of this project as well as some things to keep in mind. Please make sure you are familar with the coding 
-   conventions in the official C# documentation a well as the teams documentation
+   conventions in the official C# documentation a well as the teams documentation.
  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## General
- - All naming should represent the intention of the subjects(files, folders, functions, variables, etc...) purpose.
+ - All naming should represent the intention of the subjects (files, folders, functions, variables, etc...) purpose.
  - Commented code should be removed before PR (Pull Requested).
  
 ## Files
@@ -37,12 +37,12 @@ Ensure you read through and understand the documentation before starting any dev
  - Add space before and after the assignment operator.
  
 ## Class Names
- - Each class should not violate the Single Responsibility Principle(SRP)
- - Pascal case naming
+ - Each class should not violate the Single Responsibility Principle (SRP).
+ - Pascal case naming.
  - Class name should be a noun, not a verb.
 
 ## Interfaces
- - Interfaces should start with I (e.g. "IGetUserData" as opposed to "GetUserData")
+ - Interfaces should start with I (e.g. "IGetUserData" as opposed to "GetUserData").
  - Should never have variables declared in an interface.
  - No function definitions/implementation are allowed in an interface.
 
@@ -51,7 +51,7 @@ Ensure you read through and understand the documentation before starting any dev
  - When declaring a variable of type Boolean the variable should start with 'Is'.
  - Avoid abbreviation when declaring variables.
  - Constant variables should follow Snake case naming with upper case letters  (e.g MINIMUM_VALUE).
- - Standard variables should follow Camel case naming
+ - Standard variables should follow Camel case naming.
 
 ## Functions
  - If a function is used in mutliple packages, it should be extracted into the common directory such as the Utils directory and imported.
