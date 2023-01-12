@@ -54,7 +54,7 @@ Ensure you read through and understand the documentation before starting any dev
  - Standard variables should follow Camel case naming
 
 ## Functions
- - If a function is used in mutliple packages, it should be extracted into the common directory such as the Utils directory and imported. { A function should be extracted into a shared location, like the Utils directory, and imported if it is used in more than one package. }
+ - If a function is used in mutliple packages, it should be extracted into the common directory such as the Utils directory and imported.
  - Avoid long functions, function should be small.
  - Functions should not violate the SRP.
  - Functions that are used only within that class should be encapasulated.
