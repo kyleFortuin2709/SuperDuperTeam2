@@ -4,7 +4,7 @@ Ensure you read through and understand the documentation before starting any dev
  
 ## IDE
 ### Installation
-   The editor chosen by this team is Microsoft's Visual Studio. Below is a guide to download, install and configure Visual Studio on your machine.
+   The editor chosen by this team is Microsoft's Visual Studio. Below is a link to a guide to download, install and configure Visual Studio on your machine.
  - [IDE setup](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022)
   
 ### Getting Started
