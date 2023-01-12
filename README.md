@@ -1,6 +1,6 @@
 # Super Duper Team 2 Best Practices
 
-Ensure you read through and understand the documentation before starting any development work. The intent of this document is to cover the standard practices the group follows for the C# programming languages and also a guide to setting up and installing all the tools needed to run the project. An effort should be made at all times to adhere to these practices.
+Ensure you read through and understand the documentation before starting any development work. The intent of this document is to cover the standard practices the group follows for the C# programming language and also a guide to setting up and installing all the tools needed to run the project. An effort should be made at all times to adhere to these practices.
  
 ## IDE
 ### Installation
