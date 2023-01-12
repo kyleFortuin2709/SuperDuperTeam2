@@ -1,10 +1,10 @@
-# Super Dupre Team 2 Best Practices
+# Super Duper Team 2 Best Practices
 
 Ensure you read through and understand the documentation before starting any development work. The intent of this document is to cover the standard practices the group follows for the C# programming languages and also a guide to setting up and installing all the tools needed to run the project. An effort should be made at all times to adhere to these practices.
  
 ## IDE
 ### Installation
-   The editor chosen by this team is Microsoft's Visual Studio Code 2022. Below is a guide to download, install and configure Visual Studio 2022 on your machine.
+   The editor chosen by this team is Microsoft's Visual Studio 2022. Below is a guide to download, install and configure Visual Studio 2022 on your machine.
  - [IDE setup](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022)
   
 ### Getting Started
