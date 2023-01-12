@@ -30,10 +30,10 @@ Ensure you read through and understand the documentation before starting any dev
  - The names of files and folders must be written using Pascal Casing.
  
 ## Formatting rules
- - Must indent the logic inside the method.
+ - Must indent the logic inside the methods.
  - Must have spaces after the if,else statements and loops.
  - Must have a new line before the catch and finally blocks.
- - Must have a new line before and after open-brace.
+ - Must have a new line before and after the open-braces.
  - Must indent switch labels and case statements in switch statements.
  - Add space before and after the assignment operator.
  
