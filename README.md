@@ -41,8 +41,10 @@ Ensure you read through and understand the documentation before starting any dev
 
 ## Variables
  - It is not permitted to declare several variables in a single line.
- - When declaring a variable of type Boolean the variable should start with 'Is'
- - avoid abbreviation when declaring variables
+ - When declaring a variable of type Boolean the variable should start with 'Is'.
+ - avoid abbreviation when declaring variables.
+ - Constant variables should follow Snake case naming with upper case letters  (e.g MINIMUM_VALUE).
+ - Standard variables should follow Camel case naming
 
 ## Functions
  - If a function is used in mutliple packages, it should be extracted into the common directory such as the Utils directory and imported. { A function should be extracted into a shared location, like the Utils directory, and imported if it is used in more than one package. }
@@ -50,10 +52,12 @@ Ensure you read through and understand the documentation before starting any dev
  - Functions should not violate the SRP.
  - Functions that are used only within that class should be encapasulated.
  - Don't return null or pass in null in any code pushed to the repo.
-
+ - Functions should follow Pascal case naming.
+ - Avoid static methods as they violate SRP.
 ## Unit Tests
  - Test each function that you create. 
- - Test code must be designed to be read
+ - Test code must be designed to be read.
+ - Tests should not violate SRP.
 
 ## Heavy Considerations  
 - In the event that a function has more than 3 parameters consider whether or not that function is following the SRP.
