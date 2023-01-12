@@ -28,7 +28,14 @@ Ensure you read through and understand the documentation before starting any dev
  
 ## Files
  - The names of files and folders must be written using Pascal Casing.
-
+ 
+## Formatting rules
+ -Must have a new line before the else statement.
+ -Must have a new line before the catch and finally blocks.
+ -Must have a new line before and after open-brace.
+ -Must indent switch labels and case statements in switch statements.
+ -Add space before and after the assignment operator.
+ 
 ## Class Names
  - Each class should not violate the Single Responsibility Principle(SRP)
  - Pascal case naming
