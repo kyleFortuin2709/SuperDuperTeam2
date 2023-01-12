@@ -23,8 +23,8 @@ Ensure you read through and understand the documentation before starting any dev
  - [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## General
- - All naming should represent the intention of the subjects(files, folders, functions, variables, etc...) purpose
- - Commented code should be removed before PR (Pull Requested)
+ - All naming should represent the intention of the subjects(files, folders, functions, variables, etc...) purpose.
+ - Commented code should be removed before PR (Pull Requested).
  
 ## Files
  - The names of files and folders must be written using Pascal Casing.
@@ -49,7 +49,7 @@ Ensure you read through and understand the documentation before starting any dev
 ## Variables
  - It is not permitted to declare several variables in a single line.
  - When declaring a variable of type Boolean the variable should start with 'Is'.
- - avoid abbreviation when declaring variables.
+ - Avoid abbreviation when declaring variables.
  - Constant variables should follow Snake case naming with upper case letters  (e.g MINIMUM_VALUE).
  - Standard variables should follow Camel case naming
 
@@ -69,3 +69,4 @@ Ensure you read through and understand the documentation before starting any dev
 ## Heavy Considerations  
 - In the event that a function has more than 3 parameters consider whether or not that function is following the SRP.
 - Avoid Duplicate Code
+- Regions are considered anti-patterns, as they require more work which does not increase the quality/readability of the code. Do not use them.
