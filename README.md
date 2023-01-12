@@ -12,9 +12,9 @@ Ensure you read through and understand the documentation before starting any dev
  - [Getting Started](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/visual-studio-ide?view=vs-2022)
  
 ## Linting
-   We make use of a C# linting extention with its deafult configurations to automatically format our code before commit or pushing code.
+   We make use of a C# linting extention called Cshapier with its deafult configurations to automatically format our code before commit or pushing code.
    Install the linter on your Visual Studio using the link above and follow the installation instructions.
- - [C# Lint](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+ - [csharpier](https://github.com/belav/csharpier)
    
  ## C# Conventions
    We follow most of the conventions defined in the C# documentation but we have listed preferences and some important aspects we wish to be applied
