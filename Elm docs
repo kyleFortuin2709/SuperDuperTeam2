@@ -47,6 +47,7 @@ variable_name:data_type = value
 
 
 **Elm documentation**
+Elm is a functional language that compiles to JavaScript
 
 ## Strongly-Typed Or Weakly-Typed
 Elm is strongly-typed. 
