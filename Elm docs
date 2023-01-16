@@ -11,9 +11,9 @@
 3. What kinds of collections are available?
 -List
 -records
--Array 
 -Dictionary
 -Set
+-Tuple
 
 How do you handle coercion, conversion, casting (i.e. how to you change types)?
 What do iterators and generators look like?
