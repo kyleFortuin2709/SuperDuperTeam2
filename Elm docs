@@ -54,7 +54,6 @@ Imperative summation:
 --Take values v1,v2,...,vn
 >v1+v2+...+vn
 
-
 Declarative summation:
 > fn_add x1 x2 ...xn = x1+x2..xn
 <function> : number -> number -> number
