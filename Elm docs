@@ -9,14 +9,14 @@ Eg. 'a'   : Char
 ## Static-Typed vs Dynamic-Typed
 Elm is statically typed language.
 
-What are the 'primitive' types?
+1. What are the 'primitive' types?
 -bool
 -Char 
 -string 
 -float 
 -int 
 
-What kinds of composite types can you define, or are built in?
+2. What kinds of composite types can you define, or are built in?
 What kinds of collections are available?
 How do you handle coercion, conversion, casting (i.e. how to you change types)?
 What do iterators and generators look like?
