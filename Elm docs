@@ -6,7 +6,13 @@
 -int 
 
 2. What kinds of composite types can you define, or are built in?
-What kinds of collections are available?
+
+
+3. What kinds of collections are available?
+-Array 
+-Dictionary
+-Set
+
 How do you handle coercion, conversion, casting (i.e. how to you change types)?
 What do iterators and generators look like?
 What kinds of 'constants' and variables does the language support?
