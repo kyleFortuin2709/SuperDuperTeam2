@@ -10,6 +10,12 @@ Eg. 'a'   : Char
 Elm is statically typed language.
 
 What are the 'primitive' types?
+-bool
+-Char 
+-string 
+-float 
+-number
+-int 
 What kinds of composite types can you define, or are built in?
 What kinds of collections are available?
 How do you handle coercion, conversion, casting (i.e. how to you change types)?
