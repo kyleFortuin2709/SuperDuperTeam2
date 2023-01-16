@@ -4,3 +4,6 @@
 Elm is strongly-typed. 
 Eg. 'a'   : Char
     "abc" : String
+
+
+## Static-Typed vs Dynamic-Typed
