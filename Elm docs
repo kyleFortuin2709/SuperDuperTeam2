@@ -33,7 +33,14 @@ variable_name:data_type = value
 -All values in Elm are immutable, meaning that a value cannot be modified after it is created. 
 -Elm uses persistent data structures to implement its arrays, sets, and dictionaries in the standard library.
 
-5. What do iterators and generators look like? x
+5. What do iterators and generators look like?
+-The iterator in Elm follows the format of Int -> a, where Int indicates the length. In this case a is of type Iterator (type Iterator a) 
+    Example:    upTil : Int -> (Int -> a) -> Iterator a 
+
+-Generators in Elm are a type that describe how to produce random values. 
+    Example: 	xGenerator: Random.Generator Int 
+                xGenerator = Random.int 0 100 
+
 6. What kinds of 'constants' and variables does the language support? 
 -let
 -type annotation
