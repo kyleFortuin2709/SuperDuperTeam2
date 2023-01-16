@@ -16,9 +16,11 @@ variable_name:data_type = value
 -int 
 
 2. What kinds of composite types can you define, or are built in? kk
--List
+-List | arrays
 -records
 -Tuple
+-Dictionary
+-Set
 
 3. What kinds of collections are available?
 -List
@@ -28,6 +30,9 @@ variable_name:data_type = value
 -Tuple
 
 4. How do you handle coercion, conversion, casting (i.e. how to you change types)? x , kk
+-All values in Elm are immutable, meaning that a value cannot be modified after it is created. 
+-Elm uses persistent data structures to implement its arrays, sets, and dictionaries in the standard library.
+
 5. What do iterators and generators look like? x
 6. What kinds of 'constants' and variables does the language support? k
 7. Does the language support immutable values? l
