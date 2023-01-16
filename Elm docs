@@ -16,7 +16,9 @@ variable_name:data_type = value
 -int 
 
 2. What kinds of composite types can you define, or are built in? kk
-
+-List
+-records
+-Tuple
 
 3. What kinds of collections are available?
 -List
