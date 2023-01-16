@@ -1,1 +1,6 @@
 **Elm documentation**
+
+## Strongly-Typed Or Weakly-Typed
+Elm is strongly-typed. 
+Eg. 'a'   : Char
+    "abc" : String
