@@ -51,3 +51,12 @@ Eg. 'a'   : Char
 
 ## Static-Typed vs Dynamic-Typed
 Elm is statically typed language.
+
+-- Functions are declared the same way, with arguments following the function name.
+add x y =
+    x + y
+
+-- Again, it is best to add type annotations.
+hypotenuse : Float -> Float -> Float
+hypotenuse a b =
+    sqrt (a^2 + b^2)
