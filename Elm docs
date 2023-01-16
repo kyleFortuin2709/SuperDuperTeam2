@@ -25,14 +25,14 @@ variable_name:data_type = value
 -Set
 -Tuple
 
-How do you handle coercion, conversion, casting (i.e. how to you change types)?
-What do iterators and generators look like?
-What kinds of 'constants' and variables does the language support?
-Does the language support immutable values?
-Examples of statements vs expressions (and does the language have any unique features, for example, switch expressions?)
-Does the language support pattern matching or any other kind of 'destructuring' sugar.
-What does imperative vs declarative summation look like?
-What does imperative vs declarative grouping and filtering look like?
+4. How do you handle coercion, conversion, casting (i.e. how to you change types)?
+5. What do iterators and generators look like?
+6. What kinds of 'constants' and variables does the language support?
+7. Does the language support immutable values?
+8. Examples of statements vs expressions (and does the language have any unique features, for example, switch expressions?)
+9. Does the language support pattern matching or any other kind of 'destructuring' sugar.
+10. What does imperative vs declarative summation look like?
+11. What does imperative vs declarative grouping and filtering look like?
 
 
 
