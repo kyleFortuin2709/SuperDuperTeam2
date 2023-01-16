@@ -7,3 +7,15 @@ Eg. 'a'   : Char
 
 
 ## Static-Typed vs Dynamic-Typed
+
+What are the 'primitive' types?
+What kinds of composite types can you define, or are built in?
+What kinds of collections are available?
+How do you handle coercion, conversion, casting (i.e. how to you change types)?
+What do iterators and generators look like?
+What kinds of 'constants' and variables does the language support?
+Does the language support immutable values?
+Examples of statements vs expressions (and does the language have any unique features, for example, switch expressions?)
+Does the language support pattern matching or any other kind of 'destructuring' sugar.
+What does imperative vs declarative summation look like?
+What does imperative vs declarative grouping and filtering look like?
