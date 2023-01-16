@@ -15,7 +15,7 @@ variable_name:data_type = value
 -float 
 -int 
 
-2. What kinds of composite types can you define, or are built in?
+2. What kinds of composite types can you define, or are built in? kk
 
 
 3. What kinds of collections are available?
@@ -25,14 +25,14 @@ variable_name:data_type = value
 -Set
 -Tuple
 
-4. How do you handle coercion, conversion, casting (i.e. how to you change types)?
-5. What do iterators and generators look like?
-6. What kinds of 'constants' and variables does the language support?
-7. Does the language support immutable values?
-8. Examples of statements vs expressions (and does the language have any unique features, for example, switch expressions?)
-9. Does the language support pattern matching or any other kind of 'destructuring' sugar.
-10. What does imperative vs declarative summation look like?
-11. What does imperative vs declarative grouping and filtering look like?
+4. How do you handle coercion, conversion, casting (i.e. how to you change types)? x , kk
+5. What do iterators and generators look like? x
+6. What kinds of 'constants' and variables does the language support? k
+7. Does the language support immutable values? l
+8. Examples of statements vs expressions (and does the language have any unique features, for example, switch expressions?) l
+9. Does the language support pattern matching or any other kind of 'destructuring' sugar.k
+10. What does imperative vs declarative summation look like? j
+11. What does imperative vs declarative grouping and filtering look like? j
 
 
 
