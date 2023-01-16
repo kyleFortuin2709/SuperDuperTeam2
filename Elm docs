@@ -87,3 +87,30 @@ add x y =
 hypotenuse : Float -> Float -> Float
 hypotenuse a b =
     sqrt (a^2 + b^2)
+-------------------------------------------------------------------------------------
+
+import Queue 
+
+main = 
+  let 
+      queue = Queue.fromList ["Covid", "Measles", "SARS", "H1N1"] 
+      e = reverseOrder queue 4 
+  in 
+    List.map () e 
+    
+reverseOrder : Queue.Queue a -> Int -> Queue.Queue a 
+reverseOrder queue n = 
+  let 
+      loop i q = 
+          if i < n then 
+              let 
+                  element = Queue.pop q 
+                  newQ = Queue.push element (Queue.push element q) 
+              in 
+                  loop (i + 1) newQ 
+          else 
+              q 
+  in 
+      loop 0 queue
+
+-------------------------------------------------------------------------------------
