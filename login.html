@@ -13,8 +13,18 @@
 <script>
     var codeDef = window.location.href.split("?")[1]
     var codeValue = codeDef.split("=")[1]
-    
-    console.log(codeDef)
+
+    fetch(`https://github.com/login/oauth/access_token`, {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/jsson',
+                'Content-Type': 'application/jsson'
+            },
+            body: JSON.stringify({client_id:"b0c32795488b151c4796", client_secret:"7983d7fdf96b69e4e668175846c5618a75f85a24", code:codeValue, redirect_uri:"https://kylefortuin2709.github.io/SuperDuperTeam2/"})
+            
+    })
+    .then(response => console.log(response))
+
     console.log(codeValue)
 
 
