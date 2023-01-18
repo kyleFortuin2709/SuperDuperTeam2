@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <button onclick="login()">Login in with Github</button>
+    <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=b0c32795488b151c4796"><button">Login in with Github</button><a>
 </body>
 
 <script>
@@ -14,12 +14,13 @@
     let redirect_uri = 'https://kylefortuin2709.github.io/SuperDuperTeam2/'
 
     function login() {
-        fetch(`https://github.com/login/oauth/authorize?scope=user&client_id=${client_id}&redirect_uri=${redirect_uri}`, {
+        fetch(`https://github.com/login/oauth/authorize?scope=user:email&client_id=${client_id}&redirect_uri=${redirect_uri}`, {
             method: 'GET',
-            // headers: {
-            //     'Accept': 'application/json',
-            // },
-            mode: 'no-cors'
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+
+            },
+            
     })
     .then(response => console.log(response))
     }
